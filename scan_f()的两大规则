@@ -1,0 +1,17 @@
+scanf_s()读取基本变量的值，在变量名前加上一个&；
+scanf_s()在把字符串读入字符组中，不要使用&；
+#include <stdio.h>
+int main(void)
+{
+  int age;
+  float assets;
+  char pet[40];
+  
+  printf("Enter your age, assets and favorite pet. \n");
+  scanf_s("%d %f", &age,&assets);
+  scanf_s("%c", pet);
+  
+  printf("%d $%.2f %s\n",age,assets,pet");
+  
+  return 0;
+  }
