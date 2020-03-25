@@ -1,0 +1,11 @@
+#include <stdio.h>
+// 可以外加的内容
+define A ""   or  define A 10
+#include <string.h> //提供strlen()函数原型
+
+
+int main(void)
+{
+
+return 0;
+}
