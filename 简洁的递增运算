@@ -18,3 +18,6 @@ while (++num<20)      /* 简洁 高效 易懂/*
 Note under calculation the ++ or -- has priorty except the use of ();
 ++A => add before use 
 A++ => add after use
+Caution: 递增式最好的归宿就是在while语句中使用，因为加减如 A++ 我们无从得知 这个运算是在所有表达式完成后运行还是直接以此表达式为起点开始运算，这样
+对接下来的运算有影响
+
