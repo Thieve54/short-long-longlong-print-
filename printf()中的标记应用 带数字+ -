@@ -1,0 +1,10 @@
+# define PAGES 959
+int main(void)
+{ 
+  printf("*%d*\n,PAGES)";           // normal print out *959*
+   printf("*%2d*\n,PAGES)";        //  2代表的是两个字节，but 959有三个字节所有系统默认给予扩张以符合要求字节 *959*
+    printf("*%10d*\n,PAGES)";      //  *       959* 七个空格
+     printf("*%-10d*\n,PAGES)";
+  
+  return 0;
+  }
