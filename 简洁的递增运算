@@ -14,3 +14,5 @@ while (++num<20)      /* 简洁 高效 易懂/*
 	return 0;
 	
  } 
+//
+Note under calculation the ++ or -- has priorty except the use of ();
