@@ -19,3 +19,5 @@ int main(void)
 //表4.6 at Page93 of C primer Plus带有
   scanf_s 的转换说明
   scanf-s 转换说明的修饰符
+
+Note scanf_s only suitable for the VS
