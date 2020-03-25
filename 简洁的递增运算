@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void)
+{
+	int num;
+
+while (++num<20)      /* 简洁 高效 易懂/*
+	{
+		printf("The result of %d time is %d\n",num, num * num);
+		
+	}	
+	
+	
+	
+	return 0;
+	
+ } 
