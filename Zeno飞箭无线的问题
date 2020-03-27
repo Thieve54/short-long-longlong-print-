@@ -1,3 +1,5 @@
+// + = 是错误的表达方式， 应该为 +=； 第一轮的计算是从initial value start
+   
 #include <stdio.h>
 int main(void)
 {
