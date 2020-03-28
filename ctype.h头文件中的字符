@@ -1,0 +1,4 @@
+//  The context is at the page of 183 of C primer plus
+
+tolower(ch); //不会影响ch的值
+ch = tolower(ch); //改变ch的值
