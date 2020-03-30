@@ -1,0 +1,4 @@
+At chapter 8 of C primer Plus
+
+What's EOF?
+EOF is 由getchar() and scanf()返回的信号（一个特殊的值），表面检测到函数的结尾。
