@@ -1,0 +1,3 @@
+getchar() and 使用%c 的scanf()接受所有类型的输入
+But getchar() 读取每个字符，包括空格，制表符和换行符；而scanf则会跳过这些符号。
+putchar() 和 getchar() 分别为输出，和输入
