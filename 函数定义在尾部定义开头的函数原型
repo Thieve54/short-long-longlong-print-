@@ -1,5 +1,5 @@
 #include <stdio.h>
-double power(double n,int p);
+double power(double n,int p); //函数原型可以使用假名 
 int main(void)
 
 {   
