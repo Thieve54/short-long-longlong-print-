@@ -1,0 +1,7 @@
+scanf()的变体：            //具体区别在chapter11 
+     被弃用的gets()
+      fgets()
+
+
+printf()：
+        puts(string)
