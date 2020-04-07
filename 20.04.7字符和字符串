@@ -1,0 +1,2 @@
+If 字符串以整数开头，atoi()可以吧开头的整数转换成字符[atof for double; atol for long]
+sprintf()的作用是把数字写入字符; sprintf(target(地址),"",a)
