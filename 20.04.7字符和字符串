@@ -1,2 +1,6 @@
 If 字符串以整数开头，atoi()可以吧开头的整数转换成字符[atof for double; atol for long]
 sprintf()的作用是把数字写入字符; sprintf(target(地址),"",a)
+在转换字符串时，双引号会自动在末尾加上空字符。
+作用域：1.function scope(函数作用域)；仅用于goto语句标签
+       2.function prototyoe scope(函数原型作用域)；用于函数原型的形参中
+       3.block scope（块作用域）；花括号包含的区域
